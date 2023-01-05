@@ -17,6 +17,12 @@ jobs:
     steps:
       - run: echo "This is a test step"
 
+  container_scanning:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is an container-scannning step"
+   
+        
   integration:
     runs-on: ubuntu-latest
     needs: container_scanning
