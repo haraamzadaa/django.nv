@@ -42,7 +42,7 @@ container_scanning:
           exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
-          severity: 'MEDIUM'  container_scanning:
+          severity: 'MEDIUM'
         
     integration:
       runs-on: ubuntu-latest
